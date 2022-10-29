@@ -62,7 +62,7 @@ class Preview extends React.Component {
   render() {
     return (
       <>
-        <div id="preview" className="container">
+        <div id="preview-container" className="container">
           <div className="row">
             <div className="border border-dark mt-1 border-bottom-0 bg-title">
               <h3 className="title m-1">
@@ -70,6 +70,7 @@ class Preview extends React.Component {
               </h3>
             </div>
             <div
+              id="preview"
               className="text-left border border-dark bg-text"
               dangerouslySetInnerHTML={{
                 __html: marked(this.props.markdown),

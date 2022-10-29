@@ -3,18 +3,18 @@ body {
   background-color: rgb(198, 241, 227);
 }
 
-#preview {
+#preview-container {
   width: 70%;
   max-width: 90%;
 }
 
-#preview h1 {
+#preview-container h1 {
   border-bottom: 3px solid black;
   margin-bottom: 0.7em;
   padding-bottom: 0.1em;
 }
 
-#preview h2 {
+#preview-container h2 {
   border-bottom: 2px solid black;
   margin-bottom: 0.5em;
   padding-bottom: 0.1em;
@@ -25,7 +25,7 @@ body {
   font-family: "Share Tech Mono", serif;
 }
 
-#preview p {
+#preview-container p {
   white-space: pre-wrap;
 }
 
@@ -58,7 +58,7 @@ blockquote {
   padding-left: 0.7em;
 }
 
-#preview img {
+#preview-container img {
   display: block;
   max-width: 90%;
   margin: 1em auto;
