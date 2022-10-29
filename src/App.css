@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+body {
+  font-size: 1.2em;
+  background-color: rgb(198, 241, 227);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#preview {
+  width: 70%;
+  min-width: 450px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#preview h1 {
+  border-bottom: 3px solid black;
+  margin-bottom: 0.7em;
+  padding-bottom: 0.1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#preview h2 {
+  border-bottom: 2px solid black;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.1em;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  font-size: 1.1em;
+  font-family: "Share Tech Mono", serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#preview p {
+  white-space: pre-wrap;
+}
+
+code {
+  background-color: white;
+  display: inline-block;
+}
+
+.bg-text {
+  background-color: #ade0c0;
+}
+
+.bg-title {
+  background-color: #50a770;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 0.2em 0.7em 0.2em 0.7em;
+}
+
+table {
+  margin-bottom: 1em;
+}
+
+blockquote {
+  border-left: 4px solid mediumaquamarine;
+  margin-left: 2em;
+  padding-left: 0.7em;
+}
+
+#preview img {
+  display: block;
+  max-width: 90%;
+  margin: 1em auto;
 }
